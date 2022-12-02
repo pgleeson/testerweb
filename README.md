@@ -1,1 +1,1 @@
-# Senses in Motion Symposium website
+# NeuroDataShare website
