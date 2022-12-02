@@ -36,14 +36,14 @@ FEBRUARY 20-23 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
 <br/>
 <h2>Overview</h2>
   <p>
-Experiments in sensory physiology have traditionally relied on recordings in restrained animals to allow precise control over stimulus parameters and animal behaviour. However, in the real world, sensory perception involves continuous interaction between movements of the observer and sensory inputs. As animals move, sensory feedback resulting from their movements both presents a challenge of distinguishing between external and self-generated stimuli and provides a rich source of information about the content of the environment. Understanding how the brain processes these signals to give rise to perception and guide behaviour poses unique experimental and computational challenges. The symposium will cover experimental, theoretical, and technical work across animal species and sensory systems to address the following broad questions:
-  </p>
-<ul>
-<li>How do sensory signals, self-motion and spatial orientation interact to enable perception and behaviour?</li>
-<li>How do animals adjust their movements to optimise sensation?</li>
-<li>How do sensory representations in freely moving animals relate to those recorded under head restrained and / or passive conditions?</li>
-<li>How can new technologies enable neural recordings, behavioural quantification, and control over sensory stimulation in freely moving animals?</li>
-</ul>
+Modern experimental neuroscience is producing huge amounts of data at a rapidly increasing pace, with population recordings using multielectrode arrays and imaging and simultaneous behavioural data together with transcriptomics and anatomical reconstructions. While these data are useful to those who obtain them in the original studies, their value is magnified when they are shared in accessible formats with the wider community for use in new studies, and to investigate brain function from different perspectives. To facilitate this, many groups are developing tools, standardised languages and databases to help specify, analyse, visualise and share such data sets.</p>
+
+<p>This meeting will bring together experimentalists, those offering solutions for sharing data and those who wish to reuse, reanalyse and gain new insight into the datasets.</p>
+
+
+<p>The meeting will consist of a <b>2 day workshop of scientific presentations (Mon 20th & Tues 21st Feb 2023)</b> at the <a href="https://www.sainsburywellcome.org">Sainsbury Wellcome Centre</a> from leading neuroscientists who are generating data of different types across multiple scales, who are faced with issues of how to disseminate their output to other researchers. Scientific talks will be complemented by presentations from those developing the infrastructure to standardise and share data, and there will be discussions on the challenges and opportunities of greater data sharing in neuroscience.</p>
+
+<p>The second part of the meeting will be a smaller, more focussed <b>2 day hackathon (Wed 22nd & Thus 23rd Feb 2023)</b> where PhD students, postdocs and PIs will get hands on demonstrations to get their data into standardised formats, including <a href="https://www.nwb.org/">Neurodata Without Borders</a>, as well as help with sharing the data on the <a href="https://www.v2.opensourcebrain.org/">Open Source Brain platform</a>.</p>
 
 </div>
 
@@ -59,19 +59,18 @@ Experiments in sensory physiology have traditionally relied on recordings in res
 
 <br/>
 <h2>Organisers</h2>
-<a href="https://www.sainsburywellcome.org/web/people/sepiedeh-keshavarzi">Sepiedeh Keshavarzi</a> and <a href="https://znamlab.org">Petr Znamenskiy</a>.
+<a href="https://v2.opensourcebrain.org/user/0103eaaf-6a34-4509-a025-14367a52aa2b">Padraig Gleeson</a>, <a href="http://silverlab.org/">Angus Silver</a> and <a href="http://zebrafishucl.org/bianco-lab">Isaac Bianco</a>.
 <p></p>
 </div>
 
 <div class="col-sm-12">
 <h2>Venue and registration</h2>
-The goal of the symposium is to foster discussion and collaboration in this nascent field. As such, we believe the informal interactions during coffee and lunch breaks are as important as the Q&A sessions during the talks. The symposium will take place <b>in person</b> at the Sainsbury Wellcome Centre in London.
+The symposium will take place <b>in person</b> at the Sainsbury Wellcome Centre in London.
 <p></p>
-<b>UPDATE:</b> We have now opened registration for virtual attendance for those unable to attend in person. Symposium talks will be streamed via Zoom. The Zoom link will be distributed to registered virtual attendees before the symposium. If you have reserved an in-person ticket but would prefer to attend virtually, we kindly ask you to cancel your ticket before registering for the online option.
 
 <p></p>
 <div class="text-center">
-<a class="btn btn-primary btn-lg" href="https://www.eventbrite.co.uk/e/391517879517" role="button">Click here to register</a>
+<a class="btn btn-primary btn-lg" href="https://www.neurodatashare.org" role="button">Registration opening soon!</a>
 </div>
 <p></p>
 </div>
@@ -79,8 +78,8 @@ The goal of the symposium is to foster discussion and collaboration in this nasc
 <div class="col-sm-12">
 <h2>Funding</h2>
 <p>
-The symposium has been made possible by generous support of
-<a href="http://www.sainsburywellcome.org">the Sainsbury Wellcome Centre</a> and sponsorship from <a href="https://www.cambridgeneurotech.com/">Cambridge NeuroTech</a>, <a href="https://www.datajoint.com/">DataJoint</a>, and <a href="https://neurogears.org/">NeuroGEARS</a>.
+The workshop has been made possible by generous support of
+<a href="http://www.sainsburywellcome.org">the Sainsbury Wellcome Centre</a>.
 </p>
 </div>
 
@@ -88,21 +87,6 @@ The symposium has been made possible by generous support of
 <div class="col-sm-6 text-center" id="sponsorid">
 <a href="https://www.sainsburywellcome.org/">
 <img src="{{ site.url }}{{ site.baseurl }}/images/swc_logo.svg" class="img-fluid" alt="SWC logo"></a>
-</div>
-
-<div class="col-sm-6 text-center" id="sponsorid">
-<a href="https://www.cambridgeneurotech.com/">
-<img src="{{ site.url }}{{ site.baseurl }}/images/CamNeuroTech-Logo.png" class="img-fluid" alt="CamNeuroTech logo"></a>
-</div>
-
-<div class="col-sm-6 text-center" id="sponsorid">
-<a href="https://www.datajoint.com/">
-<img src="{{ site.url }}{{ site.baseurl }}/images/dj2-medium.png" class="img-fluid" alt="DataJoint logo"></a>   
-</div>
-
-<div class="col-sm-6 text-center" id="sponsorid">
-<a href="https://neurogears.org/">
-<img src="{{ site.url }}{{ site.baseurl }}/images/neurogears.svg" class="img-fluid" alt="NeuroGEARS logo"></a>   
 </div>
 
 <div class="col-sm-12">
