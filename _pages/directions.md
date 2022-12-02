@@ -1,7 +1,7 @@
 ---
-title: "Senses in Motion - Directions"
+title: "NeuroDataShare - Directions"
 layout: default
-excerpt: "Directions for the Senses in Motion Symposium"
+excerpt: "Directions for the NeuroDataShare workshop"
 sitemap: false
 permalink: /directions
 ---

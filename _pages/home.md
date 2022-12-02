@@ -1,23 +1,23 @@
 ---
 layout: homelay
-excerpt: "Senses in Motion: Sensory Processing in Freely Moving Animals."
+excerpt: "NeuroDataShare 2023 - Exploring and sharing multi-scale neuroscience data"
 sitemap: false
 permalink: /
 ---
 <div class="col-sm-12 text-light d-none d-lg-block">
 <div class="bg-image"
   style="
-    background-image: url('{{ site.url }}{{ site.baseurl }}/images/jumping_mouse.jpg');
+    background-image: url('{{ site.url }}{{ site.baseurl }}/images/osbmodels.png');
     background-size: 100%;
     background-repeat: no-repeat;
     height: 320px
   ">
 <div class="titlebox">
 <div class="bigtitle">
-Senses in Motion: Sensory Processing in <br/>
-Freely Moving Animals
+NeuroDataShare 2023 <br/>
+Exploring and sharing multi-scale neuroscience data
 </div>
-OCTOBER 17 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
+FEBRUARY 20-23 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
 </div>
 </div>
 </div>
@@ -25,16 +25,16 @@ OCTOBER 17 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
 <div class="col-sm-12 d-lg-none">
 <div class="titlebox">
 <div class="bigtitle">
-Senses in Motion: Sensory Processing in Freely Moving Animals
+NeuroDataShare 2023
 </div>
-OCTOBER 17 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
+FEBRUARY 20-23 2022, SAINSBURY WELLCOME CENTRE, LONDON, UK
 </div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumping_mouse.jpg">
 </div>
 
 <div class="col-sm-9">
 <br/>
-<h2>Symposium themes and objectives</h2>
+<h2>Overview</h2>
   <p>
 Experiments in sensory physiology have traditionally relied on recordings in restrained animals to allow precise control over stimulus parameters and animal behaviour. However, in the real world, sensory perception involves continuous interaction between movements of the observer and sensory inputs. As animals move, sensory feedback resulting from their movements both presents a challenge of distinguishing between external and self-generated stimuli and provides a rich source of information about the content of the environment. Understanding how the brain processes these signals to give rise to perception and guide behaviour poses unique experimental and computational challenges. The symposium will cover experimental, theoretical, and technical work across animal species and sensory systems to address the following broad questions:
   </p>
@@ -50,7 +50,8 @@ Experiments in sensory physiology have traditionally relied on recordings in res
 <div class="col-sm-3">
 <br/>
 <h2>Speakers</h2>
-{% for speaker in site.data.speakers %}
+{% assign speakers = site.data.speakers | sort: 'name' %}
+{% for speaker in speakers %}
 {% unless speaker.break %}
 <a href="{{ site.url }}{{ site.baseurl }}/speakers#{{ speaker.name }}">{{ speaker.name }}</a><br/>
 {% endunless %}

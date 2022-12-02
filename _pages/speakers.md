@@ -1,18 +1,23 @@
 ---
-title: "Senses in Motion - Speakers"
+title: "NeuroDataShare - Speakers"
 layout: gridlay
-excerpt: "Symposium speakers"
+excerpt: "Workshop speakers"
 sitemap: false
 permalink: /speakers
 ---
-# Symposium speakers
+# Workshop speakers
+
+More details on speakers to follow.
+
 <div class="row">
-  {% for speaker in site.data.speakers %}
+  {% assign speakers = site.data.speakers | sort: 'name' %}
+
+  {% for speaker in speakers %}
   {% unless speaker.break %}
   <div class="col-sm-12">
   <p></p>
   <h2 id="{{ speaker.name }}">
-  {{ speaker.name }}: {{ speaker.title }}
+  {{ speaker.name }}{% if speaker.title %}: {{ speaker.title }}{% endif %}
   </h2>
   <p>
   {% if speaker.photo %}

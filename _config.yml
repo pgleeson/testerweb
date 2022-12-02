@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Senses in Motion: Sensory Processing in Freely Moving Animals"
+title: "NeuroDataShare 2023"
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Senses in Motion: Sensory Processing in Freely Moving Animals
+  Exploring and sharing multi-scale neuroscience data
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sensesinmotion.org" # the base hostname & protocol for your site, e.g. http://example.com
 
